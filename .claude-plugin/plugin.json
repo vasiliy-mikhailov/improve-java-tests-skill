@@ -2,16 +2,16 @@
   "name": "java-mutation-testing",
   "owner": { "name": "Vasiliy Mikhailov", "url": "https://github.com/vasiliy-mikhailov" },
   "metadata": {
-    "description": "Portable Agent Skills that raise a Maven/Gradle project PIT mutation kill-rate: detect the JDK the project needs, find mutants the tests run but do not verify, and add append-only tests that kill them without weakening any existing test.",
+    "description": "Portable Agent Skills that raise a Maven/Gradle project PIT mutation score: detect the JDK the project needs, find mutants the tests run but do not verify, and add append-only tests that detect them without weakening any existing test.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "java-mutation-testing",
       "source": "./",
-      "description": "Detect the project Java version, then raise its PIT mutation score by killing surviving mutants with append-only tests (standard tools only).",
+      "description": "Detect the project Java version, then raise its PIT mutation score by improving the mutation score with append-only tests (standard tools only).",
       "strict": false,
-      "skills": ["./skills/detect-java-version", "./skills/kill-surviving-mutants"]
+      "skills": ["./skills/detect-java-version", "./skills/improve-mutation-score"]
     }
   ]
 }
