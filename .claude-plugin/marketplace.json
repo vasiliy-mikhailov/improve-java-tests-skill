@@ -1,0 +1,9 @@
+{
+  "name": "java-mutation-testing",
+  "version": "0.1.0",
+  "description": "Portable Agent Skills to raise a Java (Maven/Gradle) project PIT mutation score by killing surviving mutants with append-only tests, under the JDK the project actually needs.",
+  "author": { "name": "Vasiliy Mikhailov", "url": "https://github.com/vasiliy-mikhailov" },
+  "license": "MIT",
+  "homepage": "https://github.com/vasiliy-mikhailov/java-mutation-testing-skill",
+  "keywords": ["java","maven","gradle","mutation-testing","pit","pitest","testing","jdk","junit","test-quality"]
+}
