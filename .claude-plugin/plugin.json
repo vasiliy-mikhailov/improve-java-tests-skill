@@ -11,7 +11,7 @@
       "source": "./",
       "description": "Detect the project Java version, then raise its PIT mutation score by improving the mutation score with append-only tests (standard tools only).",
       "strict": false,
-      "skills": ["./skills/detect-java-version", "./skills/improve-mutation-score"]
+      "skills": ["./skills/detect-java-version", "./skills/detect-unit-testing-framework", "./skills/improve-mutation-score"]
     }
   ]
 }
